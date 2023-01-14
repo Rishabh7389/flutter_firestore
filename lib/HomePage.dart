@@ -6,7 +6,11 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("DATA INPUT")),
+      appBar: AppBar(
+          title: Text(
+        "DATA INPUT",
+        style: TextStyle(color: Colors.white),
+      )),
       drawer: Drawer(),
     );
   }
